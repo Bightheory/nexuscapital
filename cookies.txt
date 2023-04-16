@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+roenshcapital.com	TRUE	/	FALSE	1999999999	CameFrom	deleted
+roenshcapital.com	TRUE	/	FALSE	1999999999	PHPSESSID	lrqk6scc7fhvgvlkpp45sgb870
+.coingecko.com	TRUE	/	FALSE	1999999999	__cf_bm	VEIci1yWyQDHBBS48k_viLsiXC7rwxOaPLvXhaZ6g3w-1681597647-0-AStx55GZS2+FGFwbRrnPseVPTHp13UTZ9jmxdnlayte1eVj05i0L9Fs8XNXNn3q7iaw7+aL/SRTpPo+n46z4Zpc=
+widgets.coingecko.com	TRUE	/	FALSE	1999999999	SameSite	None
+

@@ -1,0 +1,238 @@
+
+
+<!DOCTYPE html>
+<html lang="zxx" dir="ltr">
+
+
+
+<!-- Mirrored from nexuscapital.com/?a=signup by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 15 Apr 2023 22:25:16 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <!-- Standard Meta -->
+    <meta charset="utf-8">
+     <meta name="description" content="Premium trading platform combines simplicity with sophistication to connect you to the world’s most volatile financial markets. Our dashboard display delivers one-click order execution and is equipped with the latest trading tools.">
+    <meta name="keywords" content="blockit, uikit3, indonez, handlebars, scss, vanilla javascript">
+    <meta name="author" content="Indonez">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f2f3f5" />
+    <!-- Site Properties -->
+    <title>nexuscapital.com</title>
+    <!-- Critical preload -->
+    <link rel="preload" href="js/vendors/uikit.min.js" as="script">
+    <link rel="preload" href="css/vendors/uikit.min.css" as="style">
+    <link rel="preload" href="css/style1.css" as="style">
+    <!-- Icon preload -->
+    <link rel="preload" href="fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+    <!-- Font preload -->
+    <link rel="preload" href="fonts/inter-v2-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/inter-v2-latin-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/inter-v2-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+    <!-- Favicon and apple icon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon.png">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/vendors/uikit.min.css">
+    <link rel="stylesheet" href="css/style1.css">
+    
+    
+
+</head>
+
+<body style="background:#101112;">
+    <!-- preloader begin -->
+    <div class="in-loader">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <!-- preloader end -->
+    <main>
+        <!-- section content begin -->
+        <div class="uk-section uk-padding-remove-vertical">
+            <div class="uk-container uk-container-expand">
+                <div class="uk-grid" data-uk-height-viewport="expand: true">
+                    <div class="uk-width-3-5@m uk-background-cover uk-background-center-right uk-visible@m uk-box-shadow-xlarge" style="background-image: url( img/kanchanara-img-signin.jpg);"></div>
+                    <div class="uk-width-expand@m uk-flex uk-flex-middle">
+                        <div class="uk-grid uk-flex-center">
+                            <div class="uk-width-3-5@m">
+                                <div class="in-padding-horizontal@s">
+                                    <!-- logo begin -->
+                                    <a class="uk-logo" href="indexbc14.html?a=home">
+                                        <img src="images/logo1.png" data-src="https://nexuscapital.com/images/logo1.png" alt="logo" width="200" height="34" data-uk-img>
+                                    </a>
+                                    <!-- logo end -->
+
+<p class="uk-text-lead uk-margin-top uk-margin-remove-bottom">Create your account</p>
+<p class="uk-text-small uk-margin-remove-top uk-margin-medium-bottom">Have an account? <a href="indexc30b.html?a=login">Login here</a></p>
+<!-- login form begin -->
+
+ 
+
+ <script language=javascript>
+ function checkform() {
+  if (document.regform.fullname.value == '') {
+    alert("Please enter your full name!");
+    document.regform.fullname.focus();
+    return false;
+  }
+ 
+  
+  if (document.regform.username.value == '') {
+    alert("Please enter your username!");
+    document.regform.username.focus();
+    return false;
+  }
+  if (!document.regform.username.value.match(/^[A-Za-z0-9_\-]+$/)) {
+    alert("For username you should use English letters and digits only!");
+    document.regform.username.focus();
+    return false;
+  }
+  if (document.regform.password.value == '') {
+    alert("Please enter your password!");
+    document.regform.password.focus();
+    return false;
+  }
+  if (document.regform.password.value != document.regform.password2.value) {
+    alert("Please check your password!");
+    document.regform.password2.focus();
+    return false;
+  }
+ 
+  
+  if (document.regform.email.value == '') {
+    alert("Please enter your e-mail address!");
+    document.regform.email.focus();
+    return false;
+  }
+  if (document.regform.email.value != document.regform.email1.value) {
+    alert("Please retype your e-mail!");
+    document.regform.email.focus();
+    return false;
+  }
+
+  for (i in document.regform.elements) {
+    f = document.regform.elements[i];
+    if (f.name && f.name.match(/^pay_account/)) {
+      if (f.value == '') continue;
+      var notice = f.getAttribute('data-validate-notice');
+      var invalid = 0;
+      if (f.getAttribute('data-validate') == 'regexp') {
+        var re = new RegExp(f.getAttribute('data-validate-regexp'));
+        if (!f.value.match(re)) {
+          invalid = 1;
+        }
+      } else if (f.getAttribute('data-validate') == 'email') {
+        var re = /^[^\@]+\@[^\@]+\.\w{2,4}$/;
+        if (!f.value.match(re)) {
+          invalid = 1;
+        }
+      }
+      if (invalid) {
+        alert('Invalid account format. Expected '+notice);
+        f.focus();
+        return false;
+      }
+    }
+  }
+
+  if (document.regform.agree.checked == false) {
+    alert("You have to agree with the Terms and Conditions!");
+    return false;
+  }
+
+  return true;
+ }
+
+ function IsNumeric(sText) {
+  var ValidChars = "0123456789";
+  var IsNumber=true;
+  var Char;
+  if (sText == '') return false;
+  for (i = 0; i < sText.length && IsNumber == true; i++) { 
+    Char = sText.charAt(i); 
+    if (ValidChars.indexOf(Char) == -1) {
+      IsNumber = false;
+    }
+  }
+  return IsNumber;
+ }
+ </script>
+ 
+
+ 
+
+<form method=post onsubmit="return checkform()" name="regform" class="uk-grid uk-form"><input type="hidden" name="form_id" value="16815976371657"><input type="hidden" name="form_token" value="9c759e5fb5929ca8cae1222670365988">
+<input type=hidden name=a value="signup">
+<input type=hidden name=action value="signup">
+<table cellspacing=0 cellpadding=2 border=0>
+<div class="uk-margin-small uk-width-1-1 uk-inline">
+<span class="uk-form-icon uk-form-icon-flip fas fa-user fa-sm"></span>
+     <input type=text name=fullname value="" class="uk-input uk-border-rounded" size=30 placeholder="Your Full Name *">
+</div>
+<div class="uk-margin-small uk-width-1-1 uk-inline">
+<span class="uk-form-icon uk-form-icon-flip fas fa-user fa-sm"></span>
+     <input type=text name=username value="" class="uk-input uk-border-rounded" size=30 placeholder="Your Username *">
+</div>
+<div class="uk-margin-small uk-width-1-1 uk-inline">
+<span class="uk-form-icon uk-form-icon-flip fas fa-lock fa-sm"></span>
+     <input type=password name=password value="" class="uk-input uk-border-rounded" size=30 placeholder="Your Define Password *">
+</div>
+<div class="uk-margin-small uk-width-1-1 uk-inline">
+<span class="uk-form-icon uk-form-icon-flip fas fa-lock fa-sm"></span>
+     <input type=password name=password2 value="" class="uk-input uk-border-rounded" size=30 placeholder="Your Retype Password *">
+</div>
+<!---->
+<div class="uk-margin-small uk-width-1-1 uk-inline">
+<span class="uk-form-icon uk-form-icon-flip fas fa-envelope fa-sm"></span>
+     <input type=text name=email value="" class="uk-input uk-border-rounded" size=30 placeholder="E-mail Address *">
+</div>
+<div class="uk-margin-small uk-width-1-1 uk-inline">
+<span class="uk-form-icon uk-form-icon-flip fas fa-envelope fa-sm"></span>
+     <input type=text name=email1 value="" class="uk-input uk-border-rounded" size=30 placeholder="Retype E-mail *">
+</div>
+<div class="uk-margin-small uk-width-1-1 uk-inline">
+<span class="uk-form-icon uk-form-icon-flip fas fa-edit fa-sm"></span>
+     <input type=text name=sq value="" class="uk-input uk-border-rounded" size=30 placeholder="Secret question *">
+</div>
+<div class="uk-margin-small uk-width-1-1 uk-inline">
+<span class="uk-form-icon uk-form-icon-flip fas fa-edit fa-sm"></span>
+     <input type=text name=sa value="" class="uk-input uk-border-rounded" size=30 placeholder="Secret answer *">
+</div>
+<div class="uk-margin-small uk-width-auto uk-text-small">
+<p>Your Upline: N/A (n/a)</p>
+</div>
+
+<div class="uk-margin-small uk-width-auto uk-text-small">
+<label><input type=checkbox name=agree value=1  > I agree with <a href="indexa972.html?a=rules">Terms and conditions</a></label>
+</div>
+
+<div class="uk-margin-small uk-width-1-1">
+     <input type=submit value="Register" class="uk-button uk-width-1-1 uk-button-primary uk-border-rounded uk-float-left">
+</div>
+</table>
+</form>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- section content end -->
+    </main>
+    <!-- Javascript -->
+    <script src="js/vendors/uikit.min.js"></script>
+    <script src="js/vendors/blockit.min.js"></script>
+    <script src="js/config-theme.js"></script>
+    
+    <script src="../code.tidio.co_443/moklyznmw3fky8zzbxai5gesraw0xggw.js" async></script>
+    
+</body>
+
+
+
+<!-- Mirrored from nexuscapital.com/?a=signup by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 15 Apr 2023 22:25:16 GMT -->
+</html>
